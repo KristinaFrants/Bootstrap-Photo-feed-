@@ -5,12 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
      <link rel="stylesheet" href="style.css" type="text/css" />
+
+     <style>
+     .makeKristinaHappy {
+         background-color: red;
+     }
+     
+     </style>
+     
     <script src="https://kit.fontawesome.com/30f771d04a.js" crossorigin="anonymous"></script>
     
 
     <title>Bootstrap photo feed</title>
-   <style> .row div{padding: 10px 10px; }  
-   </style>
+   <!-- <style> .row div{padding: 10px 10px; }  
+   </style> -->
   </head>
   <body>
     <div class='container'>
@@ -66,12 +74,27 @@
             </div>
         </nav>
 
-        <ul class="nav nav-pills justify-content-center bg-light">
+        <!-- here is a comment -->
+        
+        <!-- <ul class="nav nav-pills justify-content-center bg-light">
             <li class="nav-item active" > <a class="nav-link active" href="/index.html"> <i class="fas fa-border-none"></i> </a></li>
             <li class="nav-item"> <a class="nav-link" href="/feed.html"> <i class="fas fa-square"></i> </a></li>
-        </ul>
-    
-        <div class="row">
+        </ul> -->
+
+<ul class="nav nav-pills mb-3 justify-content-center " id="pills-tab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fas fa-border-none"></i></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fas fa-square"></i></a>
+  </li>
+</ul>
+
+
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+  
+   <div class="row">
             <div class="col-4">
                 <img  src="https://image.freepik.com/free-photo/adorable-pug-puppy-solo-portrait_53876-64831.jpg" class="img-thumbnail" alt="Content-image">
                 <img  src="https://image.freepik.com/free-photo/front-view-dog-with-tongue-out-red-background_23-2148415246.jpg" class="img-thumbnail" alt="Content-image">
@@ -93,6 +116,99 @@
             
             </div>
         </div>
+  
+  </div>
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+  
+          <div class=" row justify-content-center">
+            <div class='card border-0'>
+                    <h1>My first post</h1>
+                <img  src="https://image.freepik.com/free-photo/studio-shot-cute-border-collie-dog_23-2148097512.jpg" class="img-thumbnail" alt="Content-image">
+         <div class="card-body p-2">
+              <p class="card-title pb-2 m-0"><strong>27 likes</strong></p>
+              <p class="card-text pb-2 m-0">Some example text some example text.I love dogs</p>
+              <table class="table mb-0">
+                <tbody>
+                  <tr>
+                    <td class="border-0 p-2"><p class="m-0 text-left text-secondary"><i class="far fa-heart"></i><strong class="ml-4">Comment...</strong></p></td> 
+                    <td class="border-0 p-2"><p class="m-0 text-right text-secondary"><i class="fas fa-ellipsis-v"></i></p></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div> 
+
+
+                <div class=" row justify-content-center">
+                 <div class="card border-0">
+                <h1>My next post</h1>
+                <img  src="https://image.freepik.com/free-photo/portrait-dog-sticking-out-his-tongue_23-2148366828.jpg" class="img-thumbnail" alt="Content-image">
+             <div class="card-body p-2">
+              <p class="card-title pb-2 m-0"><strong>42 likes</strong></p>
+              <p class="card-text pb-2 m-0">Here goes some content</p>
+              <table class="table mb-0">
+                <tbody>
+                  <tr>
+                    <td class="border-0 p-2"><p class="m-0 text-left text-secondary"><i class="far fa-heart"></i><strong class="ml-4">Comment...</strong></p></td> 
+                    <td class="border-0 p-2"><p class="m-0 text-right text-secondary"><i class="fas fa-ellipsis-v"></i></p></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div> 
+        
+
+            <div class=" row justify-content-center">
+            <div class="card border-0">
+            <h1>My third post </h1>
+                <img src="https://image.freepik.com/free-photo/studio-shot-cute-border-collie-dog_23-2148097517.jpg" class="img-thumbnail" alt="Content-image">   
+            <div class="card-body p-2">
+              <p class="card-title pb-2 m-0"><strong>25 likes</strong></p>
+              <p class="card-text pb-2 m-0">Here goes some content. Cute dogs are my love</p>
+              <table class="table mb-0">
+                <tbody>
+                  <tr>
+                    <td class="border-0 p-2"><p class="m-0 text-left text-secondary"><i class="far fa-heart"></i><strong class="ml-4">Comment...</strong></p></td> 
+                    <td class="border-0 p-2"><p class="m-0 text-right text-secondary"><i class="fas fa-ellipsis-v"></i></p></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div> 
+         
+      
+            
+            
+
+            <div class=" row justify-content-center">
+            <div class="card border-0">
+            <h1>My last post</h1>
+                <img src="https://image.freepik.com/free-photo/front-view-dog-with-tongue-out-red-background_23-2148415246.jpg" class="img-thumbnail" alt="Content-image" class="img-thumbnail" alt="Content-image">
+                <div class="card-body p-2">
+              <p class="card-title pb-2 m-0"><strong>40 likes</strong></p>
+              <p class="card-text pb-2 m-0">Some  text some example text. London is a capital of Great Brithan</p>
+              <table class="table mb-0">
+                <tbody>
+                  <tr>
+                    <td class="border-0 p-2"><p class="m-0 text-left text-secondary"><i class="far fa-heart"></i><strong class="ml-4">Comment...</strong></p></td> 
+                    <td class="border-0 p-2"><p class="m-0 text-right text-secondary"><i class="fas fa-ellipsis-v"></i></p></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div> 
+        
+
+
+  
+  </div>
+</div>
+    
+       
 
 
 
